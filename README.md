@@ -1,11 +1,13 @@
-# Operadores Aritméticos em C#
 
-Aqui está um exemplo de como você pode criar uma classe em C# para operações aritméticas:
-Claro! Vamos lá:
 
-Então, você quer criar uma classe em C# para fazer algumas operações matemáticas, certo? Beleza, vamos começar!
+#OPERADORES ARITIMÉTICOS E CLASSE MACTH
 
-1. Primeiro, você precisa criar a classe. Vamos chamar ela de `Calculadora`. Fica assim ó:
+##Repositório referente a formação .NET DIO
+[(https://dio.me/curso-dot-net/AFY84PUWVGH8)]
+
+Vamos criar uma classe em C# para fazer algumas operações matemáticas. Segue o passo a passo:
+
+1. Primeiro, vamos criar a classe. Vamos chamar ela de `Calculadora`. Fica assim :
 
 ```csharp
 public class Calculadora
@@ -14,7 +16,7 @@ public class Calculadora
 }
 ```
 
-2. Agora, dentro da classe, você pode criar vários métodos para as operações que você quer fazer. Cada método começa com `public void`, seguido pelo nome do método e os parâmetros que ele vai receber. Olha só:
+2. Agora, dentro da classe, vamos criar vários métodos para as operações que você quer fazer. Cada método começa com `public void`, seguido pelo nome do método e os parâmetros que ele vai receber. Olha só:
 
 ```csharp
 public void Somar(int x, int y)
@@ -54,16 +56,17 @@ public void PotenciaRaiz(int x, int y)
 }
 ```
 
-3. Agora você já tem a sua classe `Calculadora` com vários métodos para fazer operações aritméticas. Para usar a classe, você cria uma instância dela e chama os métodos. Assim:
+3. Pronto! Agora você já tem a sua classe `Calculadora` com vários métodos para fazer operações aritméticas. Para usar a classe, você cria uma instância dela e chama os métodos. Assim:
 
 ```csharp
 Calculadora calc = new Calculadora();
-calc.Somar(5, 3);  // Saída: 5 + 3 = 8
+calc.Somar(10,30);
+calc.Subtrair(10,50);
+calc.Multiplicar(15,45);
+calc.Dividir(2,2);
 ```
 
-Nesse exemplo, a gente criou um objeto `calc` da classe `Calculadora` e usou o método `Somar` para somar 5 e 3. O resultado é mostrado no console. Você pode fazer o mesmo com os outros métodos.
-
-Essa classe `Calculadora` define vários métodos: `Somar`, `Subtrair`, `Multiplicar`, `Dividir`, `Potencia`, `Raiz` e `PotenciaRaiz`, que realizam as respectivas operações aritméticas. 
+Nesse exemplo, a gente criou um objeto `calc` da classe `Calculadora` e usou os métodos `Somar`, `Subtrair`, `Multiplicar` e `Dividir` para realizar algumas operações. O resultado de cada operação é mostrado no console. Você pode fazer o mesmo com os outros métodos.
 
 Os operadores aritméticos em C# são usados para realizar operações matemáticas com operandos de tipos numéricos. Eles incluem:
 
@@ -84,5 +87,4 @@ Os operadores aritméticos em C# são usados para realizar operações matemáti
 
 Esses operadores são suportados por todos os tipos numéricos integrais e de ponto flutuante. No caso de tipos integrais, esses operadores (exceto os operadores ++ e --) são definidos para os tipos int, uint, long e ulong.
 
-Para mais informações, consulte a documentação oficial da Microsoft.
-
+Para mais informações, consulte a documentação oficial da Microsoft. E aí, curtiu? Lembre-se que isso é só um exemplo simples. Num projeto de verdade, você provavelmente teria mais coisas pra fazer e talvez até algumas validações a mais. Mas espero que isso te ajude a começar! 😊
