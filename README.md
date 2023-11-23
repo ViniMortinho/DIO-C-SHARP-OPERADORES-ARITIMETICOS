@@ -96,22 +96,42 @@ A classe Math fornece métodos estáticos para realizar operações matemáticas
 
 Para trabalhar com a operação em `Math` acrescente os seguinte metodos na calculadora:
 
-    ```csharp
-    public void Seno (double angulo)                        
-{   double radioano = angulo * Math.PI / 180;
-    double seno = Math.Sin(radioano);
-    Console.WriteLine($"Seno de {angulo}º = {seno}");
+```csharp
+public void Seno (double angulo)                        
+{double radioano = angulo * Math.PI / 180;
+ double seno = Math.Sin(radioano);
+ Console.WriteLine($"Seno de {angulo}º = {seno}");
 }
-    public void Coseno (double angulo)
-{   double radioano = angulo * Math.PI / 180;
-    double coseno = Math.Cos(radioano);
-    Console.WriteLine($"Coseno de {angulo}º = {coseno}");
+public void Coseno (double angulo)
+{double radioano = angulo * Math.PI / 180;
+double coseno = Math.Cos(radioano);
+Console.WriteLine($"Coseno de {angulo}º = {coseno}");
 }
 public void Tangente (double angulo)
-{   double radioano = angulo * Math. PI / 180;
-    double tangente = Math.Tan(radioano);
-    Console.WriteLine($"Tangente de {angulo}º = {tangente}");
+{double radioano = angulo * Math. PI / 180;
+double tangente = Math.Tan(radioano);
+Console.WriteLine($"Tangente de {angulo}º = {tangente}");
 }
+;
+
+Para executar os metodos acima, basta chamar eles na calculadora e
+passar o angulo que deseja calcular o seno, coseno ou tangente
+.
+Exemplo:
+csharp
+calc.Seno(30);
+calc.Coseno(60);
+calc.Tangente(45);
+Execute no terminal `dotnet run`
+apos a execução do codigo acima
+o resultado será:
+Seno de 30º = 0,5
+Coseno de 60º = 0,8660254
+Tangente de 45º = 1,61803398874
+
+
+
+
 
 
                             
