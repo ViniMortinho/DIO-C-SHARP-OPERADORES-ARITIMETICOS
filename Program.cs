@@ -1,6 +1,19 @@
 ﻿using ExemplosFundamentos.models;
 Calculadora calc = new Calculadora();
-calc.Potencia(3,3);
+
+
+
+
+
+
+
+
+
+
+
+
+//FUNÇÃO POTENCIA
+//calc.Potencia(3,3);
 
 
 

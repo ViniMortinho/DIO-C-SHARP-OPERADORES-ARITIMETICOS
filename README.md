@@ -5,14 +5,21 @@
 ## FORMAÇÃO .NET DA [DIO](https://dio.me/curso-dot-net/AFY84PUWVGH8)
 
 
+## REQUISITOS
+- [.NET Core](https://dotnet.microsoft.com/download)
+- [Visual Studio Code](https://code.visualstudio.com/download)
+- [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
 
-A classe Math fornece métodos estáticos para realizar operações matemáticas mais avançadas, como potência, raiz quadrada, seno, cosseno, logaritmo, etc. Para usar esses métodos, basta usar a sintaxe `Math.NomeDoMetodo(argumentos)`. Por exemplo, `Math.Pow(x, y)` retorna o valor de x elevado à potência de y.
+## OBJETIVOS
 
-Para mais informações, consulte a [documentação oficial da Microsoft].
+- [x] Entender os operadores aritméticos
+- [x] Entender a utilização de classes e interfaces
+
 
 crie uma classe em C# para fazer algumas operações matemáticas. Segue o passo a passo:
-
-1. Primeiro, vamos criar a classe. Vamos chamar ela de `Calculadora`. Fica assim :
+1. Crie um projeto em C# no Visual Studio Code.
+Crie uma classe:
+Vamos chamar ela de `Calculadora`. Fica assim :
 
 ```csharp
 public class Calculadora
@@ -21,7 +28,7 @@ public class Calculadora
 }
 ```
 
-2. Agora, dentro da classe, vamos criar vários métodos para as operações que você quer fazer. Cada método começa com `public void`, seguido pelo nome do método e os parâmetros que ele vai receber. Olha só:
+2. Agora, dentro da classe, crie vários métodos para as operações que você quer fazer. Cada método começa com `public void`, seguido pelo nome do método e os parâmetros que ele vai receber. Olha só:
 
 ```csharp
 public void Somar(int x, int y)
@@ -69,11 +76,47 @@ calc.Somar(10,30);
 calc.Subtrair(10,50);
 calc.Multiplicar(15,45);
 calc.Dividir(2,2);
+
+Execute no terminal `dotnet run`
+
+apos a execução do codigo acima
+, o resultado será:
+10 + 30 = 40
+10 - 50 = -40
+15 * 45 = 675
+2 / 2 = 1
+
 ```
 
 Nesse exemplo, a gente criou um objeto `calc` da classe `Calculadora` e usou os métodos `Somar`, `Subtrair`, `Multiplicar` e `Dividir` para realizar algumas operações. O resultado de cada operação é mostrado no console. Você pode fazer o mesmo com os outros métodos.
 
 Os operadores aritméticos em C# são usados para realizar operações matemáticas com operandos de tipos numéricos. Eles incluem:
+
+A classe Math fornece métodos estáticos para realizar operações matemáticas mais avançadas, como potência, raiz quadrada, seno, cosseno, logaritmo, etc. Para usar esses métodos, basta usar a sintaxe `Math.NomeDoMetodo(argumentos)`. Por exemplo, `Math.Pow(x, y)` retorna o valor de x elevado à potência de y.
+
+Para trabalhar com a operação em `Math` acrescente os seguinte metodos na calculadora:
+
+    ```csharp
+    public void Seno (double angulo)                        
+{   double radioano = angulo * Math.PI / 180;
+    double seno = Math.Sin(radioano);
+    Console.WriteLine($"Seno de {angulo}º = {seno}");
+}
+    public void Coseno (double angulo)
+{   double radioano = angulo * Math.PI / 180;
+    double coseno = Math.Cos(radioano);
+    Console.WriteLine($"Coseno de {angulo}º = {coseno}");
+}
+public void Tangente (double angulo)
+{   double radioano = angulo * Math. PI / 180;
+    double tangente = Math.Tan(radioano);
+    Console.WriteLine($"Tangente de {angulo}º = {tangente}");
+}
+
+
+                            
+
+Para mais informações, consulte a [documentação oficial da Microsoft].
 
 ## Operadores Unários
 

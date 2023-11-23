@@ -40,6 +40,21 @@ namespace ExemplosFundamentos.models
                             Console.WriteLine($"Raiz quadrada de {x} = {Math
                             .Sqrt(x)}");
                             }
-
+                            public void Seno (double angulo)
+                            {   double radioano = angulo * Math.PI / 180;
+                                double seno = Math.Sin(radioano);
+                                Console.WriteLine($"Seno de {angulo}º = {seno}");
+                            }
+                                public void Coseno (double angulo)
+                            {   double radioano = angulo * Math.PI / 180;
+                                double coseno = Math.Cos(radioano);
+                                Console.WriteLine($"Coseno de {angulo}º = {coseno}");
+                            }
+                            public void Tangente (double angulo)
+                            {   double radioano = angulo * Math. PI / 180;
+                                double tangente = Math.Tan(radioano);
+                                Console.WriteLine($"Tangente de {angulo}º = {tangente}");
+                            }
+                            
     }
 }
