@@ -1,6 +1,8 @@
 
 
-# OPERADORES ARITIMÉTICOS E CLASSE MACTH
+# C SHARP - DIO |OPERADORES ARITIMÉTICOS E CLASSE MACTH|
+## FORMAÇÃO .NET DA [DIO](^https://dio.me/curso-dot-net/AFY84PUWVGH8^).
+
 
 ## Repositório referente a formação .NET DIO
 (DIO)[https://dio.me/curso-dot-net/AFY84PUWVGH8]
@@ -87,4 +89,4 @@ Os operadores aritméticos em C# são usados para realizar operações matemáti
 
 Esses operadores são suportados por todos os tipos numéricos integrais e de ponto flutuante. No caso de tipos integrais, esses operadores (exceto os operadores ++ e --) são definidos para os tipos int, uint, long e ulong.
 
-Para mais informações, consulte a documentação oficial da Microsoft. E aí, curtiu? Lembre-se que isso é só um exemplo simples. Num projeto de verdade, você provavelmente teria mais coisas pra fazer e talvez até algumas validações a mais. Mas espero que isso te ajude a começar! 😊
+Para mais informações, consulte a documentação oficial da Microsoft.
