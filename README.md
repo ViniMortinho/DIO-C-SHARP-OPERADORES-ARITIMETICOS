@@ -1,9 +1,9 @@
 
 
-#OPERADORES ARITIMÉTICOS E CLASSE MACTH
+# OPERADORES ARITIMÉTICOS E CLASSE MACTH
 
-##Repositório referente a formação .NET DIO
-[(https://dio.me/curso-dot-net/AFY84PUWVGH8)]
+## Repositório referente a formação .NET DIO
+(DIO)[https://dio.me/curso-dot-net/AFY84PUWVGH8]
 
 Vamos criar uma classe em C# para fazer algumas operações matemáticas. Segue o passo a passo:
 
