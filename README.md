@@ -2,9 +2,9 @@
 
 # C SHARP - DIO |OPERADORES ARITIMÉTICOS E CLASSE MACTH|
 
-## FORMAÇÃO .NET DA 
+## FORMAÇÃO .NET DA DIO [DIO](https://dio.me/curso-dot-net/AFY84PUWVGH8)
 
-                      [DIO](https://dio.me/curso-dot-net/AFY84PUWVGH8)
+[DIO](https://dio.me/curso-dot-net/AFY84PUWVGH8)
 
 
 Vamos criar uma classe em C# para fazer algumas operações matemáticas. Segue o passo a passo:
