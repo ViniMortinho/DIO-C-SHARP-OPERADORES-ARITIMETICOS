@@ -112,31 +112,61 @@ public void Tangente (double angulo)
 double tangente = Math.Tan(radioano);
 Console.WriteLine($"Tangente de {angulo}º = {tangente}");
 }
-;
+```
 
 Para executar os metodos acima, basta chamar eles na calculadora e
 passar o angulo que deseja calcular o seno, coseno ou tangente
-.
+```csharp
 Exemplo:
 csharp
 calc.Seno(30);
-calc.Coseno(60);
-calc.Tangente(45);
+calc.Coseno(30);
+calc.Tangente(30);
+```
+
 Execute no terminal `dotnet run`
-apos a execução do codigo acima
+
+Apos a execução do codigo acima
+o resultado será:
+```csharp
+Seno de 30º = 0,49999999999999994
+Coseno de 30º = 0,8660254037844387
+Tangente de 30º = 0,5773502691896257
+```
+
+Pode-se usar uma variação para limitar o numero de digitos das respostas quando necessário
+.
+Para isso devemos alterar o output (saida do metodo).
+no caso de C# o (Console.WriteLine) que printa no CMD ou powershel o que nele foi declarado pra escrever. 
+É simples!
+
+Na classe Calculadora identique Seno, Coceno e Tangente
+e para isso vamos usar `Math.Roud`
+Altere o Console.WriteLine para:
+
+```csharp
+Console.WriteLine($"Seno de {angulo}º = {Math.Round(seno, 4)}");
+Console.WriteLine($"Coseno de {angulo}º = {Math.Round(coseno, 4)}");
+Console.WriteLine($"Tangente de {angulo}º = {Math.Round(tangente, 4)});
+
+Neste exemplo as repostas ficarão
+com 4 casas decimais
+
+
 o resultado será:
 Seno de 30º = 0,5
-Coseno de 60º = 0,8660254
-Tangente de 45º = 1,61803398874
+Coseno de 30º = 0,866
+Tangente de 30º = 0,5774
+Pode-se usar uma variação para limitar o numero de digitos das
+respostas quando necessário
+.
+```
 
 
 
 
-
-
-                            
-
-Para mais informações, consulte a [documentação oficial da Microsoft].
+Para mais informações, consulte a documentação oficial
+https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/arithmetic-operators
 
 ## Operadores Unários
 
