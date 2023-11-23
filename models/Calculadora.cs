@@ -26,6 +26,7 @@ namespace ExemplosFundamentos.models
                 }
                 public void Potencia(int x, int y)
                 {
+                    double pot = Math.Pow(x,y);
                     Console.WriteLine($"{x} ^ {y} = {Math.Pow(x, y)}");
                     }
                     public void Raiz(int x)
