@@ -92,6 +92,11 @@ Nesse exemplo, a gente criou um objeto `calc` da classe `Calculadora` e usou os 
 
 Os operadores aritméticos em C# são usados para realizar operações matemáticas com operandos de tipos numéricos. Eles incluem:
 
+## Funções trigonométricas
+As funções trigonométricas são funções que mostram como os ângulos se relacionam com os lados de um triângulo que tem um ângulo de 90 graus. Elas servem para resolver problemas de geometria, física, engenharia e outras Desgraças que envolvem medidas de ângulos e distâncias. As principais funções trigonométricas são: seno, cosseno e tangente. Elas podem ser mostradas pelo círculo trigonométrico, que é um círculo de tamanho 1. As funções trigonométricas também têm várias fórmulas e propriedades.
+
+Usei o recurso Math!
+
 A classe Math fornece métodos estáticos para realizar operações matemáticas mais avançadas, como potência, raiz quadrada, seno, cosseno, logaritmo, etc. Para usar esses métodos, basta usar a sintaxe `Math.NomeDoMetodo(argumentos)`. Por exemplo, `Math.Pow(x, y)` retorna o valor de x elevado à potência de y.
 
 Para trabalhar com a operação em `Math` acrescente os seguinte metodos na calculadora:
@@ -162,15 +167,16 @@ respostas quando necessário
 .
 ```
 
-
-
-
 Para mais informações, consulte a documentação oficial
 https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/arithmetic-operators
 
 ## Operadores Unários
 
 - **++ (incremento)**: incrementa o operando em 1.
+
+
+
+
 - **-- (decremento)**: decrementa o operando em 1.
 - **+ (mais)**: retorna o valor do operando.
 - **- (menos)**: calcula a negação numérica do operando.
