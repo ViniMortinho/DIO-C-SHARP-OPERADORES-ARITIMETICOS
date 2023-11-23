@@ -1,6 +1,6 @@
 
 
-# C SHARP - DIO |OPERADORES ARITIMÉTICOS E CLASSE MACTH|
+# C SHARP > DIO - OPERADORES ARITIMÉTICOS E CLASSE MACTH
 
 ## FORMAÇÃO .NET DA [DIO](https://dio.me/curso-dot-net/AFY84PUWVGH8)
 
@@ -96,3 +96,7 @@ Espero poder ter ajudado. Se você tiver alguma dúvida ou sugestão, deixe um c
 
 : https://dio.me/curso-dot-net/AFY84PUWVGH8
 : https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/arithmetic-operators
+
+
+Eu gostaria de agradecer ao professor do curso, Leonardo Buta, por compartilhar seus conhecimentos e experiências sobre o desenvolvimento .NET. Ele é um desenvolvedor .NET sênior e um tech expert da DIO, Eu aprendi muito com as suas aulas e espero continuar me aperfeiçoando nessa área. Muito obrigado, Buta!
+[Leonardo Buta](https://github.com/leonardo-buta)
