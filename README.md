@@ -2,12 +2,15 @@
 
 # C SHARP - DIO |OPERADORES ARITIMÉTICOS E CLASSE MACTH|
 
-## FORMAÇÃO .NET DA DIO [DIO](https://dio.me/curso-dot-net/AFY84PUWVGH8)
-
-[DIO](https://dio.me/curso-dot-net/AFY84PUWVGH8)
+## FORMAÇÃO .NET DA [DIO](https://dio.me/curso-dot-net/AFY84PUWVGH8)
 
 
-Vamos criar uma classe em C# para fazer algumas operações matemáticas. Segue o passo a passo:
+
+A classe Math fornece métodos estáticos para realizar operações matemáticas mais avançadas, como potência, raiz quadrada, seno, cosseno, logaritmo, etc. Para usar esses métodos, basta usar a sintaxe `Math.NomeDoMetodo(argumentos)`. Por exemplo, `Math.Pow(x, y)` retorna o valor de x elevado à potência de y.
+
+Para mais informações, consulte a [documentação oficial da Microsoft].
+
+crie uma classe em C# para fazer algumas operações matemáticas. Segue o passo a passo:
 
 1. Primeiro, vamos criar a classe. Vamos chamar ela de `Calculadora`. Fica assim :
 
@@ -58,7 +61,7 @@ public void PotenciaRaiz(int x, int y)
 }
 ```
 
-3. Pronto! Agora você já tem a sua classe `Calculadora` com vários métodos para fazer operações aritméticas. Para usar a classe, você cria uma instância dela e chama os métodos. Assim:
+3. Agora você já tem a sua classe `Calculadora` com vários métodos para fazer operações aritméticas. Para usar a classe, você cria uma instância dela e chama os métodos. Assim:
 
 ```csharp
 Calculadora calc = new Calculadora();
@@ -89,4 +92,7 @@ Os operadores aritméticos em C# são usados para realizar operações matemáti
 
 Esses operadores são suportados por todos os tipos numéricos integrais e de ponto flutuante. No caso de tipos integrais, esses operadores (exceto os operadores ++ e --) são definidos para os tipos int, uint, long e ulong.
 
-Para mais informações, consulte a documentação oficial da Microsoft.
+Espero poder ter ajudado. Se você tiver alguma dúvida ou sugestão, deixe um comentário. Obrigado por ler!
+
+: https://dio.me/curso-dot-net/AFY84PUWVGH8
+: https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/arithmetic-operators
