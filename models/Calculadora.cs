@@ -29,17 +29,6 @@ namespace ExemplosFundamentos.models
                     double pot = Math.Pow(x,y);
                     Console.WriteLine($"{x} ^ {y} = {Math.Pow(x, y)}");
                     }
-                    public void Raiz(int x)
-                    {
-                        Console.WriteLine($"Raiz quadrada de {x} = {Math
-                        .Sqrt(x)}");
-                        }
-                        public void PotenciaRaiz(int x, int y)
-                        {
-                            Console.WriteLine($"{x} ^ {y} = {Math.Pow(x, y)}");
-                            Console.WriteLine($"Raiz quadrada de {x} = {Math
-                            .Sqrt(x)}");
-                            }
                             public void Seno (double angulo)
                             {   double radioano = angulo * Math.PI / 180;
                                 double seno = Math.Sin(radioano);
@@ -55,6 +44,12 @@ namespace ExemplosFundamentos.models
                                 double tangente = Math.Tan(radioano);
                                 Console.WriteLine($"Tangente de {angulo}º = {Math.Round(tangente, 4)}");
                             }
+                            public void RaizQuadrada(double x)
+                            {
+                                double raiz = Math.Sqrt(x);
+                                Console.WriteLine($"A raiz quadrada de {x} é: {raiz}");
+                            }
+                            
                             
     }
 }

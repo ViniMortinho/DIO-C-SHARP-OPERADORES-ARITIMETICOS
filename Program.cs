@@ -1,23 +1,33 @@
 ﻿using System.ComponentModel;
 using ExemplosFundamentos.models;
 
+//USANDO CLASSE MATH PARA CALCULAR RAIZ QUADRADA
+Calculadora calc = new Calculadora();
+calc.RaizQuadrada(9);
+
+
+
+
+
+
+
 
 
 //FUNÇÃO INCREMENTO
-int numeroIncrenemento = 10 ;
+/* int numeroIncrenemento = 10 ;
 Console.WriteLine(numeroIncrenemento);
 Console.WriteLine("incrementando o 10");
 //numero = numero + 1;
 numeroIncrenemento++;
-Console.WriteLine(numeroIncrenemento);
+Console.WriteLine(numeroIncrenemento); */
 
 //FUNÇÃO DECREMENTO
-int numeroDedremento = 20;
+/* int numeroDedremento = 20;
 Console.WriteLine(numeroDedremento);
 Console.WriteLine("decrementando o 20");
 //numero = numero - 1;
 numeroDedremento--;
-Console.WriteLine(numeroDedremento);
+Console.WriteLine(numeroDedremento); */
 
 
 

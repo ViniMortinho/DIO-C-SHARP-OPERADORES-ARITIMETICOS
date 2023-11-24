@@ -213,6 +213,30 @@ decrementando o 20
 
 
 ````
+## Raiz Quadrada
+Para calcular uma raiz quadrada usando a classe `MATH` pode-se fazer o seguinte:
+1. Primeiro devemos adicionar o metodo na classe calculadora.
+
+```csharp
+public void CalcularRaizQuadrada(double x){
+    return Math.Sqrt(x);
+    }
+
+2. Depois chamamos esse metodo da seguinte forma:
+
+using ExemplosFundamentos.models;
+
+//USANDO CLASSE MATH PARA CALCULAR RAIZ QUADRADA
+Calculadora calc = new Calculadora();
+
+calc.RaizQuadrada(9);
+
+Execute no terminal `dotnet run`
+
+apos a execução do codigo acima
+o resultado será:
+A raiz quadrada de 9 é: 3
+
 
 ## Operadores Binários
 
