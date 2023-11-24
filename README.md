@@ -88,7 +88,7 @@ apos a execução do codigo acima
 
 ```
 
-Nesse exemplo, a gente criou um objeto `calc` da classe `Calculadora` e usou os métodos `Somar`, `Subtrair`, `Multiplicar` e `Dividir` para realizar algumas operações. O resultado de cada operação é mostrado no console. Você pode fazer o mesmo com os outros métodos.
+Nesse exemplo, foi criado um objeto `calc` da classe `Calculadora` e usou os métodos `Somar`, `Subtrair`, `Multiplicar` e `Dividir` para realizar algumas operações. O resultado de cada operação é mostrado no console. Você pode fazer o mesmo com os outros métodos.
 
 Os operadores aritméticos em C# são usados para realizar operações matemáticas com operandos de tipos numéricos. Eles incluem:
 
