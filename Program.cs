@@ -1,9 +1,41 @@
-﻿using ExemplosFundamentos.models;
-Calculadora calc = new Calculadora();
+﻿using System.ComponentModel;
+using ExemplosFundamentos.models;
+
+
+
+//FUNÇÃO INCREMENTO
+int numeroIncrenemento = 10 ;
+Console.WriteLine(numeroIncrenemento);
+Console.WriteLine("incrementando o 10");
+//numero = numero + 1;
+numeroIncrenemento++;
+Console.WriteLine(numeroIncrenemento);
+
+//FUNÇÃO DECREMENTO
+int numeroDedremento = 20;
+Console.WriteLine(numeroDedremento);
+Console.WriteLine("decrementando o 20");
+//numero = numero - 1;
+numeroDedremento--;
+Console.WriteLine(numeroDedremento);
+
+
+
+
+
+
+
+
+
+
+
+
+//FUNÇÃO TRIGONOMETRICA
+/* Calculadora calc = new Calculadora();
 
 calc.Seno(30);
 calc.Coseno(30);
-calc.Tangente(30);
+calc.Tangente(30); */
 
 
 
