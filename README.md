@@ -173,13 +173,46 @@ https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/ari
 ## Operadores Unários
 
 - **++ (incremento)**: incrementa o operando em 1.
-
-
-
-
-- **-- (decremento)**: decrementa o operando em 1.
+  **-- (decremento)**: decrementa o operando em 1.
 - **+ (mais)**: retorna o valor do operando.
 - **- (menos)**: calcula a negação numérica do operando.
+
+Incremento e decremento são operadores que aumentam ou diminuem o valor de uma variável em uma unidade. Eles são representados pelos símbolos `++` e `--`, respectivamente. Tipo, se você tem uma variável `x` com o valor 10, você pode fazer:
+
+````csharp
+using System.ComponentModel;
+using ExemplosFundamentos.models;
+
+//FUNÇÃO INCREMENTO
+int numeroIncrenemento = 10 ;
+Console.WriteLine(numeroIncreremento); // isso mostra o valor inicial de numeroIncreremento, que é 10
+Console.WriteLine("incrementando o 10");
+//numero = numero + 1;
+numeroIncreremento++; // isso aumenta o valor de numeroIncreremento em 1, usando o operador ++
+Console.WriteLine(numeroIncreremento); // isso mostra o valor final de numeroIncreremento, que é 11
+
+//FUNÇÃO DECREMENTO
+int numeroDedremento = 20;
+Console.WriteLine(numeroDedremento); // isso mostra o valor inicial de numeroDedremento, que é 20
+Console.WriteLine("decrementando o 20");
+//numero = numero - 1;
+numeroDedremento--; // isso diminui o valor de numeroDedremento em 1, usando o operador --
+Console.WriteLine(numeroDedremento); // isso mostra o valor final de numeroDedremento, que é 19
+
+Execute no terminal `dotnet run`
+
+apos a execução do codigo acima
+, o resultado será:
+
+10
+incrementando o 10
+11
+20
+decrementando o 20
+19
+
+
+````
 
 ## Operadores Binários
 
